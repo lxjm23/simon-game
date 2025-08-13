@@ -55,10 +55,10 @@ $(".btn").on("click", function () {
 $(document).on("keypress", function(event){
     var  keyPressed = event.key.toLowerCase();
     var idMap = {
-        "Q" : "green",
-        "W" : "red",
-        "A" : "yellow",
-        "S" : "blue"
+        "q" : "green",
+        "w" : "red",
+        "a" : "yellow",
+        "s" : "blue"
     };
 
     if(keyPressed in idMap){
